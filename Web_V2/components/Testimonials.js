@@ -91,9 +91,10 @@ const Testimonials = () => {
             </div>
 
             {/* Quote */}
-            <blockquote className="text-xl sm:text-2xl lg:text-3xl font-medium leading-relaxed mb-8 text-center max-w-4xl mx-auto">
-              "{testimonials[current].quote}"
-            </blockquote>
+           <blockquote className="text-xl sm:text-2xl lg:text-3xl font-medium leading-relaxed mb-8 text-center max-w-4xl mx-auto">
+  &quot;{testimonials[current].quote}&quot;
+</blockquote>
+
 
             {/* Author Info */}
             <div className="flex items-center justify-center gap-4">

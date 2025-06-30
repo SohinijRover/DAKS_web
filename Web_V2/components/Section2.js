@@ -5,7 +5,7 @@ const Section2 = ({ img, name }) => {
         style={{ backgroundImage: `url(/${img}.jpeg)` }}
       >
         <p className="text-white">{name}</p>
-        <p className="text-xs text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
+        <p className="text-xs text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
       </div> 
     )
   }
